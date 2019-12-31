@@ -1,0 +1,10 @@
+name = "libusb_jll"
+uuid = "a877fdc9-fe69-5ed6-b93d-11ecd0dc2d49"
+version = "1.0.23+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
