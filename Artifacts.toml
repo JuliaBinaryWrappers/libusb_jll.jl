@@ -1,143 +1,160 @@
 [[libusb]]
 arch = "aarch64"
-git-tree-sha1 = "61823eec87652a452cb62b8b623e4b983c2412ad"
+git-tree-sha1 = "b001e172247d4e93dc506338d9669081d1764ab0"
 os = "macos"
 
     [[libusb.download]]
-    sha256 = "cadaf1b55d9ca590a8a1bce891a01ef8c20d6042b58bb6a84c661f6397f360df"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.aarch64-apple-darwin.tar.gz"
+    sha256 = "7cae2ff1c0f104f523a660b39386b8fd4d881f74ce66b70a6577fa318453e7f9"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.aarch64-apple-darwin.tar.gz"
 [[libusb]]
 arch = "aarch64"
-git-tree-sha1 = "8ee76f1b8af8acb6a9a7c630c74dad6aaac7bf35"
+git-tree-sha1 = "cab3ea7696a83f58658c9880a8c925a5ff3e47d7"
 libc = "glibc"
 os = "linux"
 
     [[libusb.download]]
-    sha256 = "89cbd56ba990651252251ff73559deff0381b57d3f207130168421ed622748b7"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.aarch64-linux-gnu.tar.gz"
+    sha256 = "f7c756acd103a0b86a162e78d8e2d82de9536089afe6af7449001442216fee87"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.aarch64-linux-gnu.tar.gz"
 [[libusb]]
 arch = "aarch64"
-git-tree-sha1 = "8db9f4500cca16004a8c256f59469a86e9215cfa"
+git-tree-sha1 = "ce68520c1729c9581a7be094794b1bbe9f9aa646"
 libc = "musl"
 os = "linux"
 
     [[libusb.download]]
-    sha256 = "5a80101a85a5be311e656207952f6dc0b505791836b5e49ad9b2750069cb787b"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.aarch64-linux-musl.tar.gz"
+    sha256 = "01fc6737794ad96535f11bfd180a769915deed6f00a506831c49ccd9b7fed61f"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.aarch64-linux-musl.tar.gz"
 [[libusb]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "4b1a7f764af8530d83c7c154398cc6b7e9325b13"
-libc = "glibc"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "c090a77e9c24357dd18a357f5a17e1c9524654001de5a28a7aee73335d6bca52"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.armv6l-linux-gnueabihf.tar.gz"
-[[libusb]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "98fb03056379ec148807609a676fcb88298f865a"
-libc = "musl"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "46ee5fb5f65b95018f76d5efa1097bb2b96f5d030fc10d0ab82a88062b2c60e2"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.armv6l-linux-musleabihf.tar.gz"
-[[libusb]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "da233f6a58b58029f4762ce2816314338f84cec8"
-libc = "glibc"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "502ec87b26f399d4a56bb6c157630fc53b21ca0e031227fe2da67f4366e27bc2"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.armv7l-linux-gnueabihf.tar.gz"
-[[libusb]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "071fd14c3a3d901e2cc66195fb8f516e07e7946a"
-libc = "musl"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "25cc5dc4fc302127bdb80c2260f33e9f4d272dfc13d71625d2955280cb81a5e3"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.armv7l-linux-musleabihf.tar.gz"
-[[libusb]]
-arch = "i686"
-git-tree-sha1 = "5d29808c4b53c2de603101318723b559f59b2f9a"
-libc = "glibc"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "211240771d13ad24b56b5e2fe710a78a10e39ff1d7cea28404609c5ec3aacabc"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.i686-linux-gnu.tar.gz"
-[[libusb]]
-arch = "i686"
-git-tree-sha1 = "5fec6ef54eda176801ac200a9a760f08529241bc"
-libc = "musl"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "1e54e8e2e7c3a9f1ad4d54c2a70ac37c9913979d44baa58900674bf381699299"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.i686-linux-musl.tar.gz"
-[[libusb]]
-arch = "i686"
-git-tree-sha1 = "2d64391c165393e6a62a86ac56e3745411f0e2aa"
-os = "windows"
-
-    [[libusb.download]]
-    sha256 = "f98a4889c3015d50c3236d462ed0589294ea69ba207168b7fb873f19fee00ddc"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.i686-w64-mingw32.tar.gz"
-[[libusb]]
-arch = "powerpc64le"
-git-tree-sha1 = "625ce00c730a74d33401d22fec895536ad446a76"
-libc = "glibc"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "fbb9d08da444038a863e4677c019c476a20e101cae52fd357be8a58422375e7d"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.powerpc64le-linux-gnu.tar.gz"
-[[libusb]]
-arch = "x86_64"
-git-tree-sha1 = "5088bb5bd498529ac64765cfd8f37d09e7c86cc2"
-os = "macos"
-
-    [[libusb.download]]
-    sha256 = "ee4e6bdf8f2e48c566e9987ecb67218c0dc17a59f0ae501fce398144e9cefef1"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.x86_64-apple-darwin.tar.gz"
-[[libusb]]
-arch = "x86_64"
-git-tree-sha1 = "cd2a66b30b74691d16bc79b98f1af7c963099d6a"
-libc = "glibc"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "553ca1206b2983a5762deafa8d68af8df9922fbc5fbe5e1f391b06fae3b5436b"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.x86_64-linux-gnu.tar.gz"
-[[libusb]]
-arch = "x86_64"
-git-tree-sha1 = "848d50664da33b4a8ba34389d878b3989f9695a3"
-libc = "musl"
-os = "linux"
-
-    [[libusb.download]]
-    sha256 = "93420a2178d797aa821abbce8cefdac6e458ffbe01bb5a4d0970eb312d270d7a"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.x86_64-linux-musl.tar.gz"
-[[libusb]]
-arch = "x86_64"
-git-tree-sha1 = "e7489b1ae9376387cbbe135cba292fb7d8eafbca"
+arch = "aarch64"
+git-tree-sha1 = "076d3e7966b6824454ca6ce503ee72a515c76112"
 os = "freebsd"
 
     [[libusb.download]]
-    sha256 = "e4062f08474067c7f81b05cab833d59f498c2a76ab003dad8cf4052879c06992"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "03723ec072bef92e0ed63ed755baf3f56c3384b8faefaaa6edfe813f3908825d"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.aarch64-unknown-freebsd.tar.gz"
 [[libusb]]
-arch = "x86_64"
-git-tree-sha1 = "313bb0051fc1898d188d094a3fbb1655a3549b0a"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8e601b254692d3cc6458299a0b79a707c771d254"
+libc = "glibc"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "87b6d73e9736d07bc068a39be16ea2a09a7fbda98fa08a902e61937af8020932"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.armv6l-linux-gnueabihf.tar.gz"
+[[libusb]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b75a9569929e61a563e52bfddb130fbd74e9f077"
+libc = "musl"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "c80be44c977b130834c652a0185e51b5c9127289aa3e2f59c170baf6196caa36"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.armv6l-linux-musleabihf.tar.gz"
+[[libusb]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "350dcc6e3aac0f036423bcfe44ab61d87fb06fdd"
+libc = "glibc"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "77d70e0902f95e451ce3d3f79140d79d68c4d979b305ff21ab549b049a9dfd94"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.armv7l-linux-gnueabihf.tar.gz"
+[[libusb]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e344c812e10ec7819b657b554eb939cd151677e1"
+libc = "musl"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "17b5b00bfa898bb32e8c87fcd9aa4f752ad49481cb36486f11dace2375477c91"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.armv7l-linux-musleabihf.tar.gz"
+[[libusb]]
+arch = "i686"
+git-tree-sha1 = "67c86a2bf1db924223456eee865adaef635a206a"
+libc = "glibc"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "be183cd822ac0d9b1b634a7b9dc001c46061931338df9511af25462e9ea90b94"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.i686-linux-gnu.tar.gz"
+[[libusb]]
+arch = "i686"
+git-tree-sha1 = "1c21a3b5cd4f101ec6a80b111f1a18c803a7847f"
+libc = "musl"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "efad5dd3f9ad693ef66e7c19ddc9dd0b770f8b6d49d7395610a81cb6af95a97a"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.i686-linux-musl.tar.gz"
+[[libusb]]
+arch = "i686"
+git-tree-sha1 = "a36f024c559ecbfe0f5b0b154346711c0be0e79b"
 os = "windows"
 
     [[libusb.download]]
-    sha256 = "f76b6cc993363f5b9825f2d43af62d12e29c07027a8db12436dce3f2c3d59329"
-    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+0/libusb.v1.0.27.x86_64-w64-mingw32.tar.gz"
+    sha256 = "6c5d7829294e9d5be63c5e29bcddf12d0bbb60a42aeb24d603f77e2fc6ab29f5"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.i686-w64-mingw32.tar.gz"
+[[libusb]]
+arch = "powerpc64le"
+git-tree-sha1 = "cf0b4ee18633ec62bbc77ccede84a06c0a637f32"
+libc = "glibc"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "5bba52c7dd4406991a84734faab68d44abae782104c1b96c462193f3f51cb2ee"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.powerpc64le-linux-gnu.tar.gz"
+[[libusb]]
+arch = "riscv64"
+git-tree-sha1 = "bd0b02ee0056ed167001816dac6aaeb2c4023b31"
+libc = "glibc"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "93b0fcdf59620eb611d97618f9adbaf0867dff30ece09488e3878fdf63e64a95"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.riscv64-linux-gnu.tar.gz"
+[[libusb]]
+arch = "x86_64"
+git-tree-sha1 = "444ab3816e0e64bff51a29b59f76aa16ee7026f0"
+os = "macos"
+
+    [[libusb.download]]
+    sha256 = "23e516178cc0528bd77d1f6c9b947a8946ee85553f9200f1a97716271849c170"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.x86_64-apple-darwin.tar.gz"
+[[libusb]]
+arch = "x86_64"
+git-tree-sha1 = "a2d0ba2ad156a1b779a0dfe6872633acea94bc83"
+libc = "glibc"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "91dad126139f886047e048cfd67395b908902768fbb1b437d53252f2bc903d98"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.x86_64-linux-gnu.tar.gz"
+[[libusb]]
+arch = "x86_64"
+git-tree-sha1 = "9a6b0ca90b03426de3434f14a89c431698a23b59"
+libc = "musl"
+os = "linux"
+
+    [[libusb.download]]
+    sha256 = "7c8ade1b875d35de3eacfe1ef94960f77c0ee448f283ec1517da29de72c3561e"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.x86_64-linux-musl.tar.gz"
+[[libusb]]
+arch = "x86_64"
+git-tree-sha1 = "8c061e91d51088490cd0a3cb8a933ff3787f184c"
+os = "freebsd"
+
+    [[libusb.download]]
+    sha256 = "52611f3685abff75242024dd8fca086b3790e8a3f455d57cb4e9ac0c9e026958"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.x86_64-unknown-freebsd.tar.gz"
+[[libusb]]
+arch = "x86_64"
+git-tree-sha1 = "15043efefb44b0091452d88502e6b164636009c1"
+os = "windows"
+
+    [[libusb.download]]
+    sha256 = "6b4bbcbb387cf159e1f4bca7d3c44f65004c92d6ae81195f669bfd9ec2f36f4d"
+    url = "https://github.com/JuliaBinaryWrappers/libusb_jll.jl/releases/download/libusb-v1.0.27+1/libusb.v1.0.27.x86_64-w64-mingw32.tar.gz"
